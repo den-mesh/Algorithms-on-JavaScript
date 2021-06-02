@@ -37,6 +37,8 @@ _Материал из [Википедии](https://ru.wikipedia.org/wiki/Алг
 | 2<sup>4</sup> = 16 | log<sub>2</sub>16 = 4 |
 | 2<sup>5</sup> = 32 | log<sub>2</sub>32 = 5 |
 
+<br>
+
 <h2>Линейный поиск</h2>
 
 <h3>Описание</h3>
