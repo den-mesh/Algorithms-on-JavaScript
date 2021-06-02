@@ -1,4 +1,4 @@
-
+<img src="https://github.com/den-mesh/Algorithms-on-JavaScript/blob/main/images/top_banner.png" alt="блок кода линейного поиска" style="max-width:100%;">
 
 <h1>Алгоритмы в JavaScript</h1>
 
