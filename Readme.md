@@ -41,5 +41,5 @@ _Материал из [Википедии](https://ru.wikipedia.org/wiki/Алг
 > Скорость выполнения О(_n_), или _линейное время_
 
 ###Пример кода
-![линейный поиск]()
+![линейный поиск](https://github.com/den-mesh/Algorithms-on-JavaScript/blob/main/images/01_linear_search.png)
 
