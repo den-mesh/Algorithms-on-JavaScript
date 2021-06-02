@@ -69,5 +69,5 @@ _Материал из [Википедии](https://ru.wikipedia.org/wiki/Алг
 
 <h3>Пример кода</h3>
 
-<img src="https://github.com/den-mesh/Algorithms-on-JavaScript/blob/main/images/01_linear_search.png" alt="блок кода линейного поиска" style="max-width:100%;">
+<img src="https://github.com/den-mesh/Algorithms-on-JavaScript/blob/main/images/02_binary_search.png" alt="блок кода бинарного поиска" style="max-width:100%;">
 
