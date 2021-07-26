@@ -33,7 +33,7 @@ _Материал из [Википедии](https://ru.wikipedia.org/wiki/Алг
 | -------------------- | ----------|
 | 10<sup>2</sup> = 100 | log<sub>10</sub>100 = 2 |
 | 10<sup>3</sup> = 1000 | log<sub>10</sub>1000 = 3 |
-| 2<sup>2</sup> = 8 | log<sub>2</sub>8 = 3 |
+| 2<sup>3</sup> = 8 | log<sub>2</sub>8 = 3 |
 | 2<sup>4</sup> = 16 | log<sub>2</sub>16 = 4 |
 | 2<sup>5</sup> = 32 | log<sub>2</sub>32 = 5 |
 
