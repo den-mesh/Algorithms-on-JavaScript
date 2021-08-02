@@ -1,3 +1,8 @@
+<img src="https://img.shields.io/github/stars/den-mesh/Algorithms-on-JavaScript" height="20" style="max-width:100%">
+<a href="https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fden-mesh%2FAlgorithms-on-JavaScript"><img alt="Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fden-mesh%2FAlgorithms-on-JavaScript"></a>
+</p>
+
+
 <img src="https://github.com/den-mesh/Algorithms-on-JavaScript/blob/main/images/top_banner.png" alt="блок кода линейного поиска" style="max-width:100%;">
 
 <h1>Алгоритмы в JavaScript</h1>
@@ -70,4 +75,41 @@ _Материал из [Википедии](https://ru.wikipedia.org/wiki/Алг
 <h3>Пример кода</h3>
 
 <img src="https://github.com/den-mesh/Algorithms-on-JavaScript/blob/main/images/02_binary_search.png" alt="блок кода бинарного поиска" style="max-width:100%;">
+<br>
 
+<h2>Сортировка выбором</h2>
+
+<h3>Описание</h3>
+Суть алгоритма — за каждый проход по массиву выбрать минимальный элемент (для сортировки по возрастанию) и поменять его местами с первым элементом в еще не отсортированном участке массива, тем самым уменьшив длину этого участка на один, и так до тех пор пока не будут отсортированы все элементы. 
+<br>
+<br>
+<strong>Алгоритмы сортировки очень полезны, но работают медленно</strong>
+<br>
+
+Могут быть полезны в сортировки, например:
+1. Имён в телефонной книге
+2. Дат путешествий 
+3. Сообщений e-mail (от новых к старым)
+
+
+> Скорость выполнения _O_( _n_х_n_), или _O_(log _n_<sup>2</sup>).
+
+<h3>Пример кода</h3>
+<pre>
+<code>
+const selectionSort = arr => {
+    for (let i = 0, l = arr.length, k = l - 1; i < k; i++) {
+        let indexMin = i;
+        for (let j = i + 1; j < l; j++) {
+            if (arr[indexMin] > arr[j]) {
+                indexMin = j;
+            }
+        }
+        if (indexMin !== i) {
+            [arr[i], arr[indexMin]] = [arr[indexMin], arr[i]];
+        }
+    }
+    return arr;
+};
+</code>
+</pre>
