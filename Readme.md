@@ -95,6 +95,10 @@ _Материал из [Википедии](https://ru.wikipedia.org/wiki/Алг
 > Скорость выполнения _O_( _n_х_n_), или _O_(log _n_<sup>2</sup>).
 
 <h3>Пример кода</h3>
+
+<img src="https://github.com/den-mesh/Algorithms-on-JavaScript/blob/main/images/03_selection_sort.png" alt="блок кода сортировка выбором" style="max-width:100%;">
+<br>
+
 <pre>
 <code>
 const selectionSort = arr => {
